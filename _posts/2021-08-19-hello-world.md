@@ -2,9 +2,14 @@
 layout: post
 title:  "Hello World!"
 author: vinny
-categories: [ Lifestyle ]
-tags: [ France ]
-image: assets/images/2.jpg
+categories: [ News ]
+image: assets/images/splash-1.jpg
 ---
 
-The first post!
+Today, we're launching the Late Bloomer Cycling Website!
+
+You can find us on <a href="https://www.facebook.com/latebloomercycling" target="_blank">Facebook</a> and on <a href="https://www.instagram.com/latebloomercycling" target="_blank">Instagram</a>.
+
+
+
+
