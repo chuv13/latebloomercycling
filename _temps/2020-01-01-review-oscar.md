@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: post
 title:  "Reviewing the best Oscar movies of all time"
 author: john
@@ -26,4 +26,4 @@ image: assets/images/11.jpg
 description: "My review of Inception movie. Actors, directing and more."
 rating: 4.5
 ---
-```
+``` -->
