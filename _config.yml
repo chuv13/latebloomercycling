@@ -11,6 +11,7 @@ disqus: 'late-bloomer-cycling'
 include: ["_pages"]
 permalink: /:categories/:year/:month/:day/:title
 email: latebloomercycling@gmail.com
+formspring: mjvjpaqn
 
 # Authors
 authors:
