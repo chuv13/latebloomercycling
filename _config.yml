@@ -26,11 +26,10 @@ authors:
   dee:
     name: Dee
     display_name: Dee    
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/dee-avatar.jpg'
     email: latebloomercycling@gmail.com
-    web: https://www.vinnymarquez.com
-    twitter: https://twitter.com/lakanbinimusic
-    description: "..."
+    twitter: https://twitter.com/psychepomp
+    description: "Quasi-cyclist, flower gatherer, dog spotter, fickle gear chooser, and silken tofu hunter. Started biking (for reals) Mar 2021."
 
 # Plugins
 plugins:
