@@ -1,4 +1,4 @@
-<!-- ---
+---
 layout: post
 title:  "Spoliers Inside - a film review needs hidden spoilers like this post"
 author: john
@@ -25,4 +25,4 @@ A major clue to everything that truly happened was the scene that played next un
 
 ```html
 <span class="spoiler">My hidden paragraph here.</span>
-``` -->
+```

@@ -1,0 +1,31 @@
+---
+layout: group
+title: Team Itim
+permalink: /groups/team-itim
+comments: false
+# image: assets/images/screenshot.jpg
+imageshadow: true
+---
+
+{% assign members = site.cyclists | where_exp: "item", "item.team == 'Team Itim'" %}
+{% for member in members %}
+<div class="row">
+  <div class="col-md-7">
+    <a href="#">
+      <img
+        class="img-fluid rounded mb-3 mb-md-0"
+        src="{{site.baseurl}}/{{ member.cover }}"
+        alt=""
+      />
+    </a>
+  </div>
+  <div class="col-md-5">
+    <h3>{{ member.display_name }}</h3>
+    <p>
+        {{ member.description }}
+    </p>
+    <a class="btn btn-primary" href="{{site.baseurl}}/profile/{{ member.name }}">View Profile</a>
+  </div>
+</div>
+<hr />
+{% endfor %}

@@ -3,10 +3,12 @@ layout: default
 title: Home
 ---
 
+{% assign posts = paginator.posts | where:"categories", "blog" %}
+
 <!-- Posts Index
 ================================================== -->
 <div class="blog-grid-container">
-    {% for post in paginator.posts %}
+    {% for post in posts %}
         {% include postbox.html %}
     {% endfor %}
 </div>

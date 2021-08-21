@@ -2,7 +2,8 @@
 layout: post
 title:  "Hello World!"
 author: vinny
-categories: [ News ]
+categories: [blog]
+tags: [news]
 image: assets/images/splash-1.jpg
 ---
 

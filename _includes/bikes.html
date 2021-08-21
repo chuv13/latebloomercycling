@@ -1,0 +1,22 @@
+<!-- Bix list -->
+<!-- {% if page.cyclist %} -->
+<div class="authorbox mb-5 mt-5 pt-4 pb-4">
+    <div class="row">
+    <h2>Bikes</h2>
+</div>
+    <div class="row">
+        
+{% for bike in cyclist.bikes %}
+<div class="card border-0 shadow" style="width: 22rem; margin: 5px">
+    <img src="{{site.baseurl}}/{{ bike[1].photo }}" class="card-img-top" alt="...">
+    <div class="card-body text-center">
+        <h5 class="card-title">'{{ bike[1].name }}'</h5>
+        <h6 class="card-title">{{ bike[1].make }} {{ bike[1].model }} {{ bike[1].year }}</h6>
+        <p class="card-text">{{ bike[1].description }}</p>
+        <span class="badge bg-info text-uppercase">{{ bike[1].status }}</span>
+    </div>
+</div>
+{% endfor %}
+</div>
+</div>
+<!-- {% endif %} -->

@@ -1,0 +1,42 @@
+---
+layout: default
+disqus: false
+archive: false
+post_class: post-template
+---
+
+{% assign cyclist = site.cyclists[page.cyclist] %}
+
+<div class="entry-header">
+    <!-- Post Title -->
+    <h1 class="posttitle">{{ page.title }}</h1>
+    {% if page.last_modified_at %}
+        <span class="post-date"><time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}">Updated: {{ page.last_modified_at | date: "%b %-d, %Y" }}</time></span>
+    {% else %}
+        <span class="post-date"><time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}">Updated: {{ page.date | date_to_string }}</time></span>
+    {% endif %}
+</div>
+
+<!-- Adsense under title if enabled from _config.yml (change your pub id and slot) -->
+{% if site.adsense == "enabled" %}
+    {% include adsense-under-header.html %}
+{% endif %}
+
+<!-- Featured Image -->
+{% include featured-image.html %}
+
+<div class="basic-details">
+    Occupation: {{ cyclist.occupation }} <br />
+    <br />
+</div>
+<!-- Content -->
+{% include article.html %}
+
+<!-- Content -->
+{% include bikes.html %}
+<div class="basic-details">
+<h4>I'm on Strava!</h4>
+<iframe height='454' width='400' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/63483746/latest-rides/58a1e5414b4eb63851a91bbc9ce0fbd7a72da803'></iframe>
+</div>
+<!-- Share -->
+{% include share.html %}

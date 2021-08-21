@@ -1,4 +1,4 @@
-<!-- ---
+---
 layout: post
 title:  "French Wine has to compete with many new world wines"
 author: john
@@ -17,4 +17,4 @@ Appellation rules closely define which grape varieties and winemaking practices 
 
 France is the source of many grape varieties (such as **Cabernet Sauvignon, Chardonnay, Pinot noir, Sauvignon blanc, Syrah**) that are now planted throughout the world, as well as wine-making practices and styles of wine that have been adopted in other producing countries. 
 
-Although some producers have benefited in recent years from rising prices and increased demand for some of the prestige wines from Burgundy and Bordeaux, the French wine industry has seen a decline in domestic consumption and internationally, it has had to compete with many new world wines. -->
+Although some producers have benefited in recent years from rising prices and increased demand for some of the prestige wines from Burgundy and Bordeaux, the French wine industry has seen a decline in domestic consumption and internationally, it has had to compete with many new world wines.
