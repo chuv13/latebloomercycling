@@ -41,9 +41,8 @@ cyclists:
       showProfile: true
       team: Team Itim
       facebook: chuv13
-      ig: lakanbinimusic
+      instagram: lakanbinimusic
       twitter: lakanbinimusic
-      linkedin: vinnymarquez
       avatar: assets/images/vinny-avatar.jpg
       card-cover: assets/images/vinny-card.jpg
       cover: 'assets/images/groups/team-itim/vinny-cover.jpg'
@@ -73,10 +72,8 @@ cyclists:
       role: contributor
       showProfile: false
       team: Team Itim
-      facebook: chuv13
-      ig: lakanbinimusic
-      twitter: lakanbinimusic
-      linkedin: vinnymarquez
+      facebook: dennis.anaya.37
+      instagram: dr.anaya
       avatar: assets/images/vinny-avatar.jpg
       card-cover: assets/images/dennis-card.jpg
       cover: 'assets/images/groups/team-itim/vinny-cover.jpg'
@@ -98,10 +95,8 @@ cyclists:
       role: contributor
       showProfile: false
       team: Team Itim
-      facebook: chuv13
-      ig: lakanbinimusic
-      twitter: lakanbinimusic
-      linkedin: vinnymarquez
+      facebook: john.andrew.patricio
+      instagram: johnandrew.sp
       avatar: assets/images/vinny-avatar.jpg
       card-cover: assets/images/john-card.jpg
       cover: 'assets/images/groups/team-itim/vinny-cover.jpg'
@@ -123,10 +118,8 @@ cyclists:
       role: contributor
       showProfile: false
       team: Team Itim
-      facebook: chuv13
-      ig: lakanbinimusic
-      twitter: lakanbinimusic
-      linkedin: vinnymarquez
+      facebook: vargas.jayvonn
+      instagram: jebiboy
       avatar: assets/images/vinny-avatar.jpg
       card-cover: assets/images/jayvonn-card.jpg
       cover: 'assets/images/groups/team-itim/vinny-cover.jpg'
