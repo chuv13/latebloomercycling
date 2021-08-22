@@ -1,14 +1,49 @@
 ---
 layout: default
+featured:
 ---
 
 <div class="page-single">
-    <div class="entry-header">       
-        <h1 class="posttitle">{{ page.title }}</h1>        
-    </div>
+  <div class="entry-header">
+    <h1 class="posttitle">{{ page.title }}</h1>
+  </div>
 </div>
 
 <!-- Featured Image -->
 {% include featured-image.html %}
-
-{{ content }}
+<div class="article-post">
+  {{ content }}
+  <div class="row">
+    <h4>Members</h4>
+  </div>
+  <div class="row">
+    {% assign team = page.team %} {% assign members = site.cyclists | where_exp:
+    "item", "item.team == team" %} {% for member in members %}
+    <div class="col-md-6">
+      {% if member.showProfile == true %}
+      <a href="{{site.baseurl}}/profile/{{ member.name }}">
+        {% endif %}
+        <div class="profile-card {% if member.showProfile == true %}with-link{% endif %}">
+          <img
+            src="{{site.baseurl}}/{{ member.card-cover }}"
+            class="img img-responsive"
+          />
+          <div class="profile-name">{{ member.display_name }}</div>
+          <div class="profile-username">"{{ member.nickname }}"</div>
+          <div class="profile-icons">
+            <a
+              href="https://www.facebook.com/{{member.facebook}}"
+              class="profile-icon"
+              ><i class="fa fa-facebook"></i
+            ></a>
+            <a href="#" class="profile-icon"><i class="fa fa-twitter"></i></a
+            ><a href="#" class="profile-icon"><i class="fa fa-linkedin"></i></a>
+          </div>
+        </div>
+        {% if member.showProfile == true %}
+      </a>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+</div>

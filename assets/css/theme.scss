@@ -419,9 +419,9 @@ img, img:hover {
     margin-bottom:50px;
 }
 .image-shadow {   
-    -webkit-box-shadow: 0 7px 50px 0 rgba(84,110,122,.15);
-    -moz-box-shadow: 0 7px 50px 0 rgba(84,110,122,.15);
-    box-shadow: 0 7px 50px 0 rgba(84,110,122,.15);
+    -webkit-box-shadow: 0 7px 10px 0 rgba(84,110,122,.15);
+    -moz-box-shadow: 0 7px 10px 0 rgba(84,110,122,.15);
+    box-shadow: 0 7px 10px 0 rgba(84,110,122,.15);
 }
 .entry-header {
     .author-thumb {
@@ -737,4 +737,85 @@ body.active-side {
             height:35px;
         }
     }
+}
+
+.card-container {
+    padding: 100px 0px;
+    -webkit-perspective: 1000;
+    perspective: 1000;
+}
+
+.profile-card {
+    max-width: 300px;
+    background-color: #FFF;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+    margin: 10px auto;
+    cursor: default;
+    border-radius: 10px;
+
+    img {
+        transition: all linear 0.25s;
+    }
+
+    .profile-name {
+        position: absolute;
+        left: 30px;
+        bottom: 70px;
+        font-size: 1.25em;
+        color: #FFF;
+        text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+        font-weight: bold;
+        transition: all linear 0.25s;
+    }
+
+    .profile-icons {
+        position: absolute;
+        bottom: .5em;
+        right: .5em;
+        color: #FFF;
+        transition: all linear 0.25s;
+    }
+
+    .profile-username {
+        position: absolute;
+        bottom: 50px;
+        left: 30px;
+        color: #FFF;
+        font-size: 13px;
+        transition: all linear 0.25s;
+    }
+
+    .profile-icons .fa {
+        margin: 5px;
+    }
+
+    &.with-link {
+        cursor: pointer;
+
+        &:hover { 
+            img {
+                filter: grayscale(100%);
+            }
+
+            .profile-name {
+                bottom: 80px;
+            }
+
+            .profile-username {
+                bottom: 60px;
+            }
+
+            .profile-icons {
+                right: 40px;
+            }
+        }
+    }
+}
+
+a.profile-icon {
+    color: #FFF;
+    font-size: .75em;
 }
