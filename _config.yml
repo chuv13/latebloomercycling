@@ -157,12 +157,12 @@ paginate: 6
 paginate_path: /page:num/
     
 # Other
-highlighter: none
-markdown: kramdown
+highlighter: rouge
 kramdown:
+  input: GFM
   syntax_highlighter_opts:
-    disable : true
-  hard_wrap: true
+    default_lang: html
+    css_class   : 'syntax'
 
 
 
