@@ -16,181 +16,125 @@ formspring: mjvjpaqn
 # Groups
 cyclists:
   vinny:
-      name: vinny-marquez
-      display_name: Vinny Marquez
-      nickname: Vinny / ChuVi / Lakan Bini
-      role: admin
-      showProfile: true
-      team: team-itim
-      facebook: chuv13
-      instagram: lakanbinimusic
-      twitter: lakanbinimusic
-      avatar: assets/images/vinny-avatar.jpg
-      card-cover: assets/images/vinny-card.jpg
-      cover: 'assets/images/groups/team-itim/vinny-cover.jpg'
-      occupation: Software Developer / Test Automation Engineer
-      description: "Makes computers do sh*t for a living. Makes music, plays games, rolls on the mats, and cycles for fun. Started cycling in October 2020."
-      bikes:
-        allez: 
-          name: Stella
-          make: Specialized
-          model: Allez
-          year: 2020
-          photo: 'assets/images/stella.jpg'
-          description: 'Shimano 105, RS11, GP5000 25c'
-          status: operational
-        redwood: 
-          name: Pikel
-          make: Poseidon
-          model: Redwood
-          year: 2021
-          photo: 'assets/images/pikel.jpg'
-          description: 'SRAM GX Lunar, SRAM Rival shifters, Ratio Technologies 1x12 Upgrade Kit, Token G23AR, Ritchey Venturemax v2, Wolftooth 40T Assymetric, PNW Coast Suspension Dropper Post'
-          status: mid-build
+    name: vinny-marquez
+    display_name: Vinny Marquez
+    nickname: Vinny / ChuVi / Lakan Bini
+    role: admin
+    showProfile: true
+    team: team-itim
+    facebook: chuv13
+    instagram: lakanbinimusic
+    twitter: lakanbinimusic
+    avatar: assets/images/vinny-avatar.jpg
+    card-cover: assets/images/vinny-card.jpg
+    cover: 'assets/images/groups/team-itim/vinny-cover.jpg'
+    occupation: Software Developer / Test Automation Engineer
+    description: "Makes computers do sh*t for a living. Makes music, plays games, rolls on the mats, and cycles for fun. Started cycling in October 2020."
+    bikes:
+      allez: 
+        name: Stella
+        make: Specialized
+        model: Allez
+        year: 2020
+        photo: 'assets/images/stella.jpg'
+        description: 'Shimano 105, RS11, GP5000 25c'
+        status: operational
+      redwood: 
+        name: Pikel
+        make: Poseidon
+        model: Redwood
+        year: 2021
+        photo: 'assets/images/pikel.jpg'
+        description: 'SRAM GX Lunar, SRAM Rival shifters, Ratio Technologies 1x12 Upgrade Kit, Token G23AR, Ritchey Venturemax v2, Wolftooth 40T Assymetric, PNW Coast Suspension Dropper Post'
+        status: mid-build
   dennis:
-      name: dennis-anaya
-      display_name: Dennis Anaya
-      nickname: Dennis
-      role: contributor
-      showProfile: false
-      team: team-itim
-      facebook: dennis.anaya.37
-      instagram: dr.anaya
-      avatar: assets/images/vinny-avatar.jpg
-      card-cover: assets/images/dennis-card.jpg
-      cover: 'assets/images/groups/team-itim/vinny-cover.jpg'
-      occupation: Software Developer / Test Automation Engineer
-      description: "Makes computers do sh*t for a living. Makes music, plays games, rolls on the mats, and cycles for fun. Started cycling in October 2020."
-      bikes:
-        allez: 
-          name: Stella
-          make: Specialized
-          model: Allez
-          year: 2020
-          photo: 'assets/images/stella.jpg'
-          description: 'Shimano 105, RS11, GP5000 25c'
-          status: operational
+    name: dennis-anaya
+    display_name: Dennis Anaya
+    nickname: Dennis
+    role: contributor
+    showProfile: false
+    team: team-itim
+    facebook: dennis.anaya.37
+    instagram: dr.anaya
+    avatar: assets/images/vinny-avatar.jpg
+    card-cover: assets/images/dennis-card.jpg
+    cover: 'assets/images/groups/team-itim/vinny-cover.jpg'
+    occupation: Software Developer / Test Automation Engineer
+    description: "Makes computers do sh*t for a living. Makes music, plays games, rolls on the mats, and cycles for fun. Started cycling in October 2020."
+    bikes:
+      allez: 
+        name: Stella
+        make: Specialized
+        model: Allez
+        year: 2020
+        photo: 'assets/images/stella.jpg'
+        description: 'Shimano 105, RS11, GP5000 25c'
+        status: operational
   john:
-      name: john-patricio
-      display_name: John Patricio
-      nickname: John
-      role: contributor
-      showProfile: false
-      team: team-itim
-      facebook: john.andrew.patricio
-      instagram: johnandrew.sp
-      avatar: assets/images/vinny-avatar.jpg
-      card-cover: assets/images/john-card.jpg
-      cover: 'assets/images/groups/team-itim/vinny-cover.jpg'
-      occupation: Software Developer / Test Automation Engineer
-      description: "Makes computers do sh*t for a living. Makes music, plays games, rolls on the mats, and cycles for fun. Started cycling in October 2020."
-      bikes:
-        allez: 
-          name: Stella
-          make: Specialized
-          model: Allez
-          year: 2020
-          photo: 'assets/images/stella.jpg'
-          description: 'Shimano 105, RS11, GP5000 25c'
-          status: operational
+    name: john-patricio
+    display_name: John Patricio
+    nickname: John
+    role: contributor
+    showProfile: false
+    team: team-itim
+    facebook: john.andrew.patricio
+    instagram: johnandrew.sp
+    avatar: assets/images/vinny-avatar.jpg
+    card-cover: assets/images/john-card.jpg
+    cover: 'assets/images/groups/team-itim/vinny-cover.jpg'
+    occupation: Software Developer / Test Automation Engineer
+    description: "Makes computers do sh*t for a living. Makes music, plays games, rolls on the mats, and cycles for fun. Started cycling in October 2020."
+    bikes:
+      allez: 
+        name: Stella
+        make: Specialized
+        model: Allez
+        year: 2020
+        photo: 'assets/images/stella.jpg'
+        description: 'Shimano 105, RS11, GP5000 25c'
+        status: operational
   jayvonn:
-      name: jayvonn-vargas
-      display_name: Jay Vonn Vargas
-      nickname: Jay Vonn
-      role: contributor
-      showProfile: false
-      team: team-itim
-      facebook: vargas.jayvonn
-      instagram: jebiboy
-      avatar: assets/images/vinny-avatar.jpg
-      card-cover: assets/images/jayvonn-card.jpg
-      cover: 'assets/images/groups/team-itim/vinny-cover.jpg'
-      occupation: Software Developer / Test Automation Engineer
-      description: "Makes computers do sh*t for a living. Makes music, plays games, rolls on the mats, and cycles for fun. Started cycling in October 2020."
-      bikes:
-        allez: 
-          name: Stella
-          make: Specialized
-          model: Allez
-          year: 2020
-          photo: 'assets/images/stella.jpg'
-          description: 'Shimano 105, RS11, GP5000 25c'
-          status: operational
+    name: jayvonn-vargas
+    display_name: Jay Vonn Vargas
+    nickname: Jay Vonn
+    role: contributor
+    showProfile: false
+    team: team-itim
+    facebook: vargas.jayvonn
+    instagram: jebiboy
+    avatar: assets/images/vinny-avatar.jpg
+    card-cover: assets/images/jayvonn-card.jpg
+    cover: 'assets/images/groups/team-itim/vinny-cover.jpg'
+    occupation: Software Developer / Test Automation Engineer
+    description: "Makes computers do sh*t for a living. Makes music, plays games, rolls on the mats, and cycles for fun. Started cycling in October 2020."
+    bikes:
+      allez: 
+        name: Stella
+        make: Specialized
+        model: Allez
+        year: 2020
+        photo: 'assets/images/stella.jpg'
+        description: 'Shimano 105, RS11, GP5000 25c'
+        status: operational
   dee:
-      name: dee-marquez
-      display_name: Dee Marquez
-      role: author
-      team: misis-ride
-      avatar: 'assets/images/dee-avatar.jpg'
-      cover: 'assets/images/groups/team-itim/vinny-cover.jpg'
-      email: latebloomercycling@gmail.com
-      description: "Quasi-cyclist, flower gatherer, dog spotter, fickle gear chooser, and silken tofu hunter. Started biking (for reals) March 2021."
-      bikes:
-        allez: 
-          name: Yuba
-          make: GT
-          model: Zaskar
-          year: 2004
-          photo: 'assets/images/stella.jpg'
-          description: 'Resto-mod. SRAM SX. White Shimano M445 brakeset. The Project Loopbar. Teal powdercoat.'
-          status: operational
-  moy:
-      name: jr-enalpe
-      display_name: Jr Enalpe
-      nickname: Moy
-      role: contributor
-      showProfile: true
-      team: star8
-      facebook: chuv13
-      instagram: lakanbinimusic
-      twitter: lakanbinimusic
-      avatar: assets/images/vinny-avatar.jpg
-      card-cover: assets/images/vinny-card.jpg
-      cover: 'assets/images/groups/team-itim/vinny-cover.jpg'
-      occupation: Software Developer / Test Automation Engineer
-      description: "Makes computers do sh*t for a living. Makes music, plays games, rolls on the mats, and cycles for fun. Started cycling in October 2020."
-      bikes:
-        allez: 
-          name: Stella
-          make: Specialized
-          model: Allez
-          year: 2020
-          photo: 'assets/images/stella.jpg'
-          description: 'Shimano 105, RS11, GP5000 25c'
-          status: operational
-  karlo:
-      name: karlo-beltran
-      display_name: Karlo Beltran
-      nickname: Karlo / Bigboy
-      role: contributor
-      showProfile: true
-      team: de-padyak
-      facebook: chuv13
-      instagram: lakanbinimusic
-      twitter: lakanbinimusic
-      avatar: assets/images/vinny-avatar.jpg
-      card-cover: assets/images/vinny-card.jpg
-      cover: 'assets/images/groups/team-itim/vinny-cover.jpg'
-      occupation: Software Developer / Test Automation Engineer
-      description: "Makes computers do sh*t for a living. Makes music, plays games, rolls on the mats, and cycles for fun. Started cycling in October 2020."
-      bikes:
-        allez: 
-          name: Stella
-          make: Specialized
-          model: Allez
-          year: 2020
-          photo: 'assets/images/stella.jpg'
-          description: 'Shimano 105, RS11, GP5000 25c'
-          status: operational
-        redwood: 
-          name: Pikel
-          make: Poseidon
-          model: Redwood
-          year: 2021
-          photo: 'assets/images/pikel.jpg'
-          description: 'SRAM GX Lunar, SRAM Rival shifters, Ratio Technologies 1x12 Upgrade Kit, Token G23AR, Ritchey Venturemax v2, Wolftooth 40T Assymetric, PNW Coast Suspension Dropper Post'
-          status: mid-build
-
+    name: dee-marquez
+    display_name: Dee Marquez
+    role: author
+    showProfile: false
+    team: misis-ride
+    avatar: 'assets/images/dee-avatar.jpg'
+    cover: 'assets/images/groups/team-itim/vinny-cover.jpg'
+    email: latebloomercycling@gmail.com
+    description: "Quasi-cyclist, flower gatherer, dog spotter, fickle gear chooser, and silken tofu hunter. Started biking (for reals) March 2021."
+    bikes:
+      allez: 
+        name: Yuba
+        make: GT
+        model: Zaskar
+        year: 2004
+        photo: 'assets/images/stella.jpg'
+        description: 'Resto-mod. SRAM SX. White Shimano M445 brakeset. The Project Loopbar. Teal powdercoat.'
+        status: operational
 # Plugins
 plugins:
   - jekyll-paginate
