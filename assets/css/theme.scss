@@ -813,24 +813,6 @@ body.active-side {
                 right: 40px;
             }
         }
-
-        &:active { 
-            img {
-                filter: none;
-            }
-
-            .profile-name {
-                bottom: 80px;
-            }
-
-            .profile-username {
-                bottom: 60px;
-            }
-
-            .profile-icons {
-                right: 40px;
-            }
-        }
     }
 }
 
@@ -911,11 +893,6 @@ a.profile-icon {
     }
 
     &:hover img {
-        transform: rotate(5deg) scale(1.1, 1.1);
-        filter: brightness(100%);
-    }
-
-    &:active img {
         transform: rotate(5deg) scale(1.1, 1.1);
         filter: brightness(100%);
     }
