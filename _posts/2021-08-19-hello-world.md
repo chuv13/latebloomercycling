@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Hello World!"
-author: vinny
+author: vinny-marquez
 categories: [blog]
 tags: [news]
 image: assets/images/splash-1.jpg

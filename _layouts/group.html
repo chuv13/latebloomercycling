@@ -1,6 +1,5 @@
 ---
 layout: default
-featured:
 ---
 
 <div class="page-single">
@@ -17,8 +16,8 @@ featured:
     <h4>Members</h4>
   </div>
   <div class="row">
-    {% assign team = page.team %} {% assign members = site.cyclists | where_exp:
-    "item", "item.team == team" %} {% for member in members %}
+    {% assign members = site.cyclists | where_exp:"item", "item.team == page.team" %} 
+    {% for member in members %}
     <div class="col-md-6">
       {% if member.showProfile == true %}
       <a href="{{site.baseurl}}/profile/{{ member.name }}">

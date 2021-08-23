@@ -13,24 +13,6 @@ permalink: /:categories/:year/:month/:day/:title
 email: latebloomercycling@gmail.com
 formspring: mjvjpaqn
 
-# Authors
-authors:
-  vinny:
-    name: Vinny
-    display_name: Vinny Marquez
-    avatar: 'assets/images/vinny-avatar.jpg'
-    email: latebloomercycling@gmail.com
-    web: https://www.vinnymarquez.com
-    twitter: https://twitter.com/lakanbinimusic
-    description: "Makes computers do sh*t for a living. Makes music, plays games, rolls on the mats, and cycles for fun. Started cycling in October 2020."
-  dee:
-    name: Dee
-    display_name: Dee Marquez 
-    avatar: 'assets/images/dee-avatar.jpg'
-    email: latebloomercycling@gmail.com
-    twitter: https://twitter.com/psychepomp
-    description: "Quasi-cyclist, flower gatherer, dog spotter, fickle gear chooser, and silken tofu hunter. Started biking (for reals) Mar 2021."
-
 # Groups
 cyclists:
   vinny:
@@ -39,7 +21,7 @@ cyclists:
       nickname: Vinny / ChuVi / Lakan Bini
       role: admin
       showProfile: true
-      team: Team Itim
+      team: team-itim
       facebook: chuv13
       instagram: lakanbinimusic
       twitter: lakanbinimusic
@@ -71,7 +53,7 @@ cyclists:
       nickname: Dennis
       role: contributor
       showProfile: false
-      team: Team Itim
+      team: team-itim
       facebook: dennis.anaya.37
       instagram: dr.anaya
       avatar: assets/images/vinny-avatar.jpg
@@ -94,7 +76,7 @@ cyclists:
       nickname: John
       role: contributor
       showProfile: false
-      team: Team Itim
+      team: team-itim
       facebook: john.andrew.patricio
       instagram: johnandrew.sp
       avatar: assets/images/vinny-avatar.jpg
@@ -117,7 +99,7 @@ cyclists:
       nickname: Jay Vonn
       role: contributor
       showProfile: false
-      team: Team Itim
+      team: team-itim
       facebook: vargas.jayvonn
       instagram: jebiboy
       avatar: assets/images/vinny-avatar.jpg
@@ -136,12 +118,13 @@ cyclists:
           status: operational
   dee:
       name: dee-marquez
-      display_name: Vinny Marquez
+      display_name: Dee Marquez
       role: author
-      team: Misis Ride
-      avatar: 'assets/images/vinny-avatar.jpg'
+      team: misis-ride
+      avatar: 'assets/images/dee-avatar.jpg'
       cover: 'assets/images/groups/team-itim/vinny-cover.jpg'
-      description: "Quasi-cyclist, flower gatherer, dog spotter, fickle gear chooser, and silken tofu hunter. Started biking (for reals) Mar 2021."
+      email: latebloomercycling@gmail.com
+      description: "Quasi-cyclist, flower gatherer, dog spotter, fickle gear chooser, and silken tofu hunter. Started biking (for reals) March 2021."
       bikes:
         allez: 
           name: Yuba
@@ -151,6 +134,62 @@ cyclists:
           photo: 'assets/images/stella.jpg'
           description: 'Resto-mod. SRAM SX. White Shimano M445 brakeset. The Project Loopbar. Teal powdercoat.'
           status: operational
+  moy:
+      name: jr-enalpe
+      display_name: Jr Enalpe
+      nickname: Moy
+      role: contributor
+      showProfile: true
+      team: star8
+      facebook: chuv13
+      instagram: lakanbinimusic
+      twitter: lakanbinimusic
+      avatar: assets/images/vinny-avatar.jpg
+      card-cover: assets/images/vinny-card.jpg
+      cover: 'assets/images/groups/team-itim/vinny-cover.jpg'
+      occupation: Software Developer / Test Automation Engineer
+      description: "Makes computers do sh*t for a living. Makes music, plays games, rolls on the mats, and cycles for fun. Started cycling in October 2020."
+      bikes:
+        allez: 
+          name: Stella
+          make: Specialized
+          model: Allez
+          year: 2020
+          photo: 'assets/images/stella.jpg'
+          description: 'Shimano 105, RS11, GP5000 25c'
+          status: operational
+  karlo:
+      name: karlo-beltran
+      display_name: Karlo Beltran
+      nickname: Karlo / Bigboy
+      role: contributor
+      showProfile: true
+      team: de-padyak
+      facebook: chuv13
+      instagram: lakanbinimusic
+      twitter: lakanbinimusic
+      avatar: assets/images/vinny-avatar.jpg
+      card-cover: assets/images/vinny-card.jpg
+      cover: 'assets/images/groups/team-itim/vinny-cover.jpg'
+      occupation: Software Developer / Test Automation Engineer
+      description: "Makes computers do sh*t for a living. Makes music, plays games, rolls on the mats, and cycles for fun. Started cycling in October 2020."
+      bikes:
+        allez: 
+          name: Stella
+          make: Specialized
+          model: Allez
+          year: 2020
+          photo: 'assets/images/stella.jpg'
+          description: 'Shimano 105, RS11, GP5000 25c'
+          status: operational
+        redwood: 
+          name: Pikel
+          make: Poseidon
+          model: Redwood
+          year: 2021
+          photo: 'assets/images/pikel.jpg'
+          description: 'SRAM GX Lunar, SRAM Rival shifters, Ratio Technologies 1x12 Upgrade Kit, Token G23AR, Ritchey Venturemax v2, Wolftooth 40T Assymetric, PNW Coast Suspension Dropper Post'
+          status: mid-build
 
 # Plugins
 plugins:

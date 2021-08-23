@@ -6,7 +6,7 @@ comments: false
 image: assets/images/team-itim-cover.jpg
 imageshadow: true
 description: 
-team: Team Itim
+team: team-itim
 ---
 
 Team name is actually temporary, we've yet to decide on the exact name & logo. Treat this section as a placeholder.

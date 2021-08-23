@@ -796,7 +796,7 @@ body.active-side {
     &.with-link {
         cursor: pointer;
 
-        &:hover { 
+        &:hover, &:active  { 
             img {
                 filter: none;
             }
@@ -819,4 +819,83 @@ body.active-side {
 a.profile-icon {
     color: #FFF;
     font-size: .75em;
+}
+
+
+.author-card {
+    max-width: 300px;
+    background-color: #FFF;
+    border-radius: 5px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+    margin: 10px auto;
+    cursor: pointer;
+
+    img {
+        transition: all 0.25s linear;
+    }
+
+    .profile-content {
+        position: relative;
+        padding: 15px;
+        background-color: #FFF;
+
+        &::before {
+            content: "";
+            position: absolute;
+            height: 20px;
+            top: -10px;
+            left: 0px;
+            right: 0px;
+            background-color: #FFF;
+            z-index: 0;
+            transform: skewY(3deg);
+        }
+    }
+
+    .profile-name {
+        font-weight: bold;
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        top: -70px;
+        color: #FFF;
+        font-size: 1.1em;
+
+        > p {
+            margin-top: 0px;
+            font-weight: 600;
+            font-size: 0.6em;
+            letter-spacing: 1.5px;
+        }
+    }
+
+    .profile-description {
+        color: #777;
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    .profile-overview {
+        padding: 15px 0px;
+
+        p {
+            font-size: 10px;
+            font-weight: 600;
+            color: #777;
+        }
+
+        h4 {
+            color: #273751;
+            font-weight: bold;
+        }
+    }
+
+    &:hover, &:active  {
+        img {
+            transform: rotate(5deg) scale(1.1, 1.1);
+            filter: brightness(100%);
+        }
+    }
 }
