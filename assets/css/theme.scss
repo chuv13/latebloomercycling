@@ -896,10 +896,14 @@ a.profile-icon {
     &:hover, &:active  {
         &.with-link {
             cursor: pointer;
-            
+
             img {
                 transform: rotate(5deg) scale(1.1, 1.1);
                 filter: brightness(100%);
+            }
+
+            a {
+                text-decoration: none;
             }
         }
     }
