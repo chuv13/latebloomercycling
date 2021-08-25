@@ -829,7 +829,7 @@ a.profile-icon {
     overflow: hidden;
     position: relative;
     margin: 10px auto;
-    cursor: pointer;
+    cursor: default;
 
     img {
         transition: all 0.25s linear;
@@ -891,10 +891,16 @@ a.profile-icon {
         }
     }
 
+    
+
     &:hover, &:active  {
-        img {
-            transform: rotate(5deg) scale(1.1, 1.1);
-            filter: brightness(100%);
+        &.with-link {
+            cursor: pointer;
+            
+            img {
+                transform: rotate(5deg) scale(1.1, 1.1);
+                filter: brightness(100%);
+            }
         }
     }
 }

@@ -9,7 +9,7 @@ comments: false
   <div class="row">
     {% for author in site.authors %}
 
-    <div class="author-card text-center">
+    <div class="author-card {% if author[1].showProfile == true %}with-link{% endif %} text-center">
       {% if author[1].showProfile == true %}
       <a href="{{site.baseurl}}/profile/{{ author[1].name }}">
         {% endif %}
