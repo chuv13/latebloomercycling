@@ -23,13 +23,15 @@ authors:
     web: https://www.vinnymarquez.com
     twitter: https://twitter.com/lakanbinimusic
     description: "Makes computers do sh*t for a living. Makes music, plays games, rolls on the mats, and cycles for fun. Started cycling in October 2020."
+    role: admin
   dee:
     name: Dee
     display_name: Dee Marquez 
     avatar: 'assets/images/dee-avatar.jpg'
     email: latebloomercycling@gmail.com
     twitter: https://twitter.com/psychepomp
-    description: "Quasi-cyclist, flower gatherer, dog spotter, fickle gear chooser, and silken tofu hunter. Started biking (for reals) Mar 2021."
+    description: "Quasi-cyclist, flower gatherer, dog spotter, fickle gear chooser, and silken tofu hunter. Started biking (for reals) March 2021."
+    role: author
 
 # Groups
 cyclists:
