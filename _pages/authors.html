@@ -4,24 +4,29 @@ title: Authors
 permalink: /authors
 comments: false
 ---
+
 <div class="list-authors mt-5">
   <div class="row">
-    {% for author in site.authors %}  
+    {% for author in site.authors %}
 
     <div class="author-card text-center">
+      {% if author[1].showProfile == true %}
       <a href="{{site.baseurl}}/profile/{{ author[1].name }}">
+        {% endif %}
         <img
           src="{{site.baseurl}}/{{ author[1].avatar }}"
           class="img img-responsive"
         />
         <div class="profile-content">
           <div class="profile-name">
-            {{ author.display_name }}
+            {{ author[1].display_name }}
             <p class="text-uppercase">{{ author[1].role }}</p>
           </div>
           <div class="profile-description">{{ author[1].description }}</div>
         </div>
+        {% if author[1].showProfile == true %}
       </a>
+      {% endif %}
     </div>
 
     {% endfor %}

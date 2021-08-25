@@ -16,7 +16,7 @@ formspring: mjvjpaqn
 # Authors
 authors:
   vinny:
-    name: Vinny
+    name: vinny-marquez
     display_name: Vinny Marquez
     avatar: 'assets/images/vinny-avatar.jpg'
     email: latebloomercycling@gmail.com
@@ -24,14 +24,16 @@ authors:
     twitter: https://twitter.com/lakanbinimusic
     description: "Makes computers do sh*t for a living. Makes music, plays games, rolls on the mats, and cycles for fun. Started cycling in October 2020."
     role: admin
+    showProfile: true
   dee:
-    name: Dee
+    name: dee-marquez
     display_name: Dee Marquez 
     avatar: 'assets/images/dee-avatar.jpg'
     email: latebloomercycling@gmail.com
     twitter: https://twitter.com/psychepomp
     description: "Quasi-cyclist, flower gatherer, dog spotter, fickle gear chooser, and silken tofu hunter. Started biking (for reals) March 2021."
     role: author
+    showProfile: false
 
 # Groups
 cyclists:
