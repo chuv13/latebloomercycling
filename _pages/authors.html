@@ -7,8 +7,8 @@ comments: false
 
 <div class="list-authors mt-5">
   <div class="row">
-    {% assign authors = site.cyclists | where_exp:"item", "item.role == 'admin'
-    or item.role == 'author'" %} {% for author in authors %}
+    {% assign authors = site.cyclists | where_exp:"item", "item.role == 'author'" %} 
+    {% for author in authors %}
 
     <div class="author-card text-center">
       <a href="{{site.baseurl}}/profile/{{ author.name }}">
