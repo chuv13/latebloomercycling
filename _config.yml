@@ -60,7 +60,7 @@ cyclists:
           model: Allez
           year: 2020
           photo: 'assets/images/stella.jpg'
-          description: 'Shimano 105, RS11, Ritchey Curve, ESI RCT, GP5000 25c'
+          description: 'Shimano 105, RS11, Profile Design 1/ZeroSeven 110mm, Ritchey Curve 40cm, ESI RCT, GP5000 25c'
           status: operational
         redwood: 
           name: Pikel
