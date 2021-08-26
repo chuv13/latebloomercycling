@@ -29,14 +29,22 @@ post_class: post-template
     Occupation: {{ cyclist.occupation }} <br />
     <br />
 </div>
+
+<div class="basic-details">
+    <h2>The Story</h2>
+</div>
 <!-- Content -->
 {% include article.html %}
+
+
 
 <!-- Content -->
 {% include bikes.html %}
 <div class="basic-details">
-<h4>I'm on Strava!</h4>
-<iframe height='454' width='400' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/63483746/latest-rides/58a1e5414b4eb63851a91bbc9ce0fbd7a72da803'></iframe>
-</div>
+    <h2>Recent activities on Strava!</h2>
+    <div class="strava-container">
+        <iframe class="responsive-iframe" frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/{{cyclist.strava-id}}/latest-rides/58a1e5414b4eb63851a91bbc9ce0fbd7a72da803'></iframe>
+    </div>
+</div>  
 <!-- Share -->
 {% include share.html %}
