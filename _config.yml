@@ -60,7 +60,7 @@ cyclists:
           model: Allez
           year: 2020
           photo: 'assets/images/stella.jpg'
-          description: 'Shimano 105, RS11, GP5000 25c'
+          description: 'Shimano 105, RS11, Ritchey Curve, ESI RCT, GP5000 25c'
           status: operational
         redwood: 
           name: Pikel
@@ -79,6 +79,7 @@ cyclists:
       team: Team Itim
       facebook: dennis.anaya.37
       instagram: dr.anaya
+      strava-id: 36058019
       avatar: assets/images/vinny-avatar.jpg
       card-cover: assets/images/dennis-card.jpg
       cover: 'assets/images/groups/team-itim/vinny-cover.jpg'
@@ -102,6 +103,7 @@ cyclists:
       team: Team Itim
       facebook: john.andrew.patricio
       instagram: johnandrew.sp
+      strava-id: 69633756
       avatar: assets/images/vinny-avatar.jpg
       card-cover: assets/images/john-card.jpg
       cover: 'assets/images/groups/team-itim/vinny-cover.jpg'
@@ -125,6 +127,7 @@ cyclists:
       team: Team Itim
       facebook: vargas.jayvonn
       instagram: jebiboy
+      strava-id: 74144567
       avatar: assets/images/vinny-avatar.jpg
       card-cover: assets/images/jayvonn-card.jpg
       cover: 'assets/images/groups/team-itim/vinny-cover.jpg'
@@ -144,6 +147,7 @@ cyclists:
       display_name: Vinny Marquez
       role: author
       team: Misis Ride
+      strava-id: 75165850
       avatar: 'assets/images/vinny-avatar.jpg'
       cover: 'assets/images/groups/team-itim/vinny-cover.jpg'
       description: "Quasi-cyclist, flower gatherer, dog spotter, fickle gear chooser, and silken tofu hunter. Started biking (for reals) Mar 2021."
